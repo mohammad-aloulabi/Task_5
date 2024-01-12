@@ -1,0 +1,38 @@
+.women {
+    height: 432px;
+    /* width: 100vw; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.womentitle {
+
+    font-family: 'Yesteryear';
+    width: max-content;
+    /* width: 626px; */
+    color: #FFF;
+    font-size: 157px;
+    font-weight: 400;
+    line-height: 223px;
+}
+
+.Abouth1 {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+    font-family: "Yesteryear";
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 224px;
+}
+
+@media screen and (max-width:992px) {
+    .women {
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}

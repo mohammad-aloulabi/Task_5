@@ -1,0 +1,36 @@
+.footformat {
+    height: 345px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+
+}
+
+.arrow {
+    left: 15px;
+    top: 22px;
+}
+
+.pformt {
+    font-weight: 500;
+}
+
+.space {
+    line-height: 32px;
+}
+
+.cpright {
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 130px;
+    width: max-content;
+}
+
+@media screen and (max-width:992px) {
+    .rowformat{
+        width: 200px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+}

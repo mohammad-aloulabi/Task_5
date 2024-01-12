@@ -1,0 +1,25 @@
+.fst {
+    height: 314px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.citey {
+    margin-top: 70px;
+}
+
+.Volkhov {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+@media screen and (max-width:992px) {
+    .citey {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+
+}

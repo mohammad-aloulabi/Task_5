@@ -1,0 +1,56 @@
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.cont {
+  width: 100vw;
+  height: 51.035px;
+  padding: 36px 70px;
+  margin: 0 auto;
+}
+
+.lnk {
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.btnNav {
+  width: 158px;
+  height: 44px;
+  background-color: #df6951;
+  color: #ffffff;
+  line-height: 22.5px;
+  border: none;
+}
+
+.btnNav:hover {
+  background-color: #e05337;
+}
+
+.title {
+  gap: 60px;
+  max-width: max-content;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.lnk:hover {
+  color: #df6951;
+}
+
+.NavFormat {
+  gap: 224px;
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnNav {
+    display: none;
+  }
+}

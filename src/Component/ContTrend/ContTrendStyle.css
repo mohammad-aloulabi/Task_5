@@ -1,0 +1,50 @@
+.head {
+    margin-top: 100px;
+}
+
+.pformat {
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.hformat {
+    font-size: 50px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+.secondContainere {
+    margin-top: 90px;
+    padding: 0 136px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width:992px) {
+    .secondContainere {
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin: 0 auto;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .head {
+        width: max-content;
+        margin: 50px auto;
+        padding-left: 50px;
+        flex-shrink: 0;
+    }
+
+    .hformat {
+        width: max-content;
+    }
+
+}

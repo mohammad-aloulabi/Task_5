@@ -1,0 +1,71 @@
+.promofather {}
+
+/* .Promotion {
+  height: 649px;
+  margin-top: 100px;
+} */
+
+.ptitle {
+  color: #DF6951;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.provide {
+  color: #181E4B;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.promodescrip {
+  color: #2F2F2F;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.btnpackage {
+  display: flex;
+  width: 167px;
+  height: 57px;
+  justify-content: center;
+  align-items: center;
+  background: #DF6951;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+/* ------------------------------------------- */
+
+
+.secondchild {
+  background-repeat: no-repeat;
+
+}
+
+
+.insid-eimg {
+  top: 5%;
+  left: 3.5%;
+
+}
+
+@media screen and (max-width:992px) {
+  .secondchild {
+    display: none;
+
+  }
+
+  .firstchild {
+    text-align: center;
+    width:max-content;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+}

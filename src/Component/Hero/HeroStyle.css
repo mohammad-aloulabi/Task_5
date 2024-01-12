@@ -1,0 +1,14 @@
+.hero {
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:992px) {
+    .hero {
+        width: max-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

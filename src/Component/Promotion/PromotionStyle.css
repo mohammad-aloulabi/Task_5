@@ -1,6 +1,9 @@
-.promofather {}
+.promofather {
+  margin-top: 90px ;
+  margin-bottom: 90px ;
+}
 
-/* .Promotion {
+ /* .Promotion {
   height: 649px;
   margin-top: 100px;
 } */
@@ -41,9 +44,12 @@
 }
 
 /* ------------------------------------------- */
-
+.firstchild{
+  width: 400px;
+}
 
 .secondchild {
+  width: 600px;
   background-repeat: no-repeat;
 
 }
@@ -55,17 +61,15 @@
 
 }
 
-@media screen and (max-width:992px) {
-  .secondchild {
-    display: none;
+ @media screen and (max-width:992px) {
+  .promofather{
+    margin: 90px auto;
+   width:50%;
+   margin-left: 200px;
+   gap: 30px;
 
+
+   
   }
 
-  .firstchild {
-    text-align: center;
-    width:max-content;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-
-}
+} 

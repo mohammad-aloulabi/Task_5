@@ -1,5 +1,7 @@
 .head {
+    margin: 0 auto;
     margin-top: 100px;
+ 
 }
 
 .pformat {
@@ -38,13 +40,17 @@
 
     .head {
         width: max-content;
-        margin: 50px auto;
-        padding-left: 50px;
-        flex-shrink: 0;
+        margin: 40px auto;
+        padding-left: 350px; 
+        
     }
 
     .hformat {
-        width: max-content;
+        font-size: 30px;
+       width: max-content;
+      
+     
+    
     }
 
 }

@@ -7,7 +7,7 @@
 
 @media screen and (max-width:992px) {
     .hero {
-        width: max-content;
+        width:620px;
         margin: 0 auto;
         text-align: center;
     }

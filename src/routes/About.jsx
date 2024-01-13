@@ -44,12 +44,12 @@ const About = () => {
         <h1 className="womentitle">Wanderlust</h1>
       </div>
 
-      {/* <Container
+      <Container
         image={stamp}
         title="Trend"
         desc="Our Popular Tour Plans"
         brief="Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium."
-      /> */}
+      />
       <Footer />
     </div>
   );

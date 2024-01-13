@@ -5,15 +5,15 @@ import './ContainerStyle.css'
 const Container = ({ title, desc, brief, image }) => {
   return (
     
-    <div className="promofather d-flex  justify-content-between  align-items-center flex-wrap " >
+    <div className=" contfather d-flex  justify-content-between  align-items-center flex-wrap  " >
       <div className='stamp'>
         <img src={image} />
 
       </div>
-      <div className="firstchild  ">
-        <p className="ptitle">{title}</p>
-        <h1 className="provide">{desc}</h1>
-        <p className="promodescrip">{brief}</p>
+      <div className="fstchild   ">
+        <p className="title-p">{title}</p>
+        <h1 className="descH1">{desc}</h1>
+        <p className="pargraf1">{brief}</p>
 
         <div className='percent d-flex gap-5 mt-5 '>
 
